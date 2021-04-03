@@ -1,0 +1,244 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(to bottom, #ffffff, rgb(211, 221, 227, 0.3) , rgb(201, 208, 221, 0.8));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*header all*/
+
+.header-nav{
+	background: linear-gradient(to bottom , #4f63b3, #3854c2);
+	height: 82px;
+	border-bottom: 1px solid #133263;
+}
+
+.header-left{
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+.header-right{
+	position: relative;
+	float: right;
+	width: 50%;
+}
+
+.font-logo h2{
+	font-family: 'Tahoma';
+	font-size: 36px;
+	padding-top: 25px;
+	margin-left: 25%;
+	color: white;
+}
+
+/*body left*/
+
+.body-left{
+	position: relative;
+	float: left;
+	width: 59%;
+}
+
+.body-left h3{
+	font-family: 'yu gothic';
+	font-size: 20px;
+	color: #224e94;
+	margin-top: -80px;
+	margin-left: 70px;
+	padding: 120px;
+}
+
+.body-left img{
+	margin: -120px 0 0 180px;
+}
+
+/*body right*/
+
+.body-right{
+	position: relative;
+	float: right;
+	width: 41%;
+}
+
+.body-right h1{
+	font-family: 'Arial';
+	color: #313331;
+	padding: 20px 20px 10px 0;
+}
+
+.body-right h2{
+	font-family: 'Arial';
+	font-weight: normal;
+	font-size: 14px;
+	color: #8f8f8f;
+	margin: 10px 0 5px 0;
+}
+
+.body-right h3{
+	font-family: 'Arial';
+	font-weight: normal;
+	color: #313331;
+}
+
+.body-right h4{
+	font-family: 'Arial';
+	font-weight: bolder;
+	color: #8f8f8f;
+	margin: 10px 0 5px 0;
+}
+
+.body-right h5{
+	font-family: 'Arial';
+	font-weight: normal;
+	font-size: 11px;
+	color: #8f8f8f;
+	margin: 10px 230px 5px 0;
+}
+
+.body-right a{
+	text-decoration: none;
+	color: #13499e;
+}
+
+/*input login*/
+
+.input-log{
+	height: 20px;
+	width: 130px;
+	margin-top: 40px;
+	margin-right: -120px;
+	margin-left: 130px;
+	border: 1px #133263 solid;
+}
+
+/*fonte login*/
+
+.font-log{
+	font-family: 'Arial';
+	font-size: 13px;
+	color: #fff;
+}
+
+.font-log-one{
+	position: absolute;
+	top: 20px;
+	left: 130px;
+}
+
+.font-log-two{
+	position: absolute;
+	top: 20px;
+	left: 280px;
+}
+
+.font-esq-senha{
+	font-family: 'Arial';
+	font-size: 13px;
+	color: #9dc2fa;
+	position: absolute;
+	top: 65px;
+	left: 280px;
+	text-decoration: none;
+}
+
+.font-esq-senha:hover{
+	text-decoration: line-through;
+}
+
+/*input cadastro*/
+
+.input-cad{
+	height: 30px;
+	margin: 0 5px 10px 0;
+	border: 1px #ccc solid;
+	border-radius: 5px;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	font-size: 18px;
+}
+
+.input-cad-one{
+	width: 180px; 
+}
+
+.input-cad-two{
+	width: 160px; 
+}
+
+.input-cad-three{
+	width: 360px; 
+}
+
+/*select cadastro*/
+
+.body-right select{
+	margin-left: -5px;
+	border: 1px #ccc solid;
+	padding: 5px;
+}
+
+/*radio input*/
+
+.rdb-font{
+	font-family: 'Arial';
+	font-weight: normal;
+	font-size: 19px;
+	color: #262626;
+	margin-right: 20px;
+}
+
+/*button cadastro*/
+
+.btn-cad{
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-family: 'Arial';
+    font-weight: bolder;
+    font-size: 18px;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-top: 10px;
+}
+
+/*button login*/
+
+.btn-log{
+	margin-left: 130px;
+	color: #ffffff;
+	background: #4776bf;
+	border: 1px solid #1f3557;
+	padding: 4px;
+	border-radius: 2px;
+}
+
+/*footer*/
+
+.footer{
+	background: #ffffff;
+	width: 100%;
+	height: 150px;
+	margin-top: 520px;
+}
